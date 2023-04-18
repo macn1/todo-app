@@ -1,0 +1,50 @@
+body{
+    background-color:#095c6e;
+    font-family: sans-serif ;
+
+}
+h1{
+    color: #ab9bb9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+   
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.input-section{
+    background-color:rgb(81, 113, 196)
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul{
+    background-color: #056679;
+    min-height: 200px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+ul li{
+    list-style: none;
+    background-color: #095c6e;
+    margin-bottom: 10px;
+    display: flex;
+}
+i{
+    text-align: right;
+    flex: 1;
+}
